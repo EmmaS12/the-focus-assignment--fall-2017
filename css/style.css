@@ -1,0 +1,94 @@
+.great-feature-column-two {
+   padding-right: 17%;
+   width: 200px;
+}
+.great-feature-column-one {
+   padding-left: 17%;
+   width: 200px;
+}
+.great-feature-padding {
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.play-button {
+   width: 16%;
+   position:absolute;
+   bottom: 14px;
+   left: 47px;
+}
+.video-playbar {
+   width: 85%;
+   position:absolute;
+   bottom: 14px;
+   left: 102px;
+}
+.video-image {
+   width: 115%;
+   position:relative;
+   left: 30px;
+   top: 7px;
+}
+.get-app-header {
+   padding-bottom: 20px;
+}
+.get-app-image {
+   display: inline-block;
+   text-align: left;
+   width: 39%;
+}
+.get-app-row {
+   background-color: #e3e3e3;
+}
+.get-app-content{
+   text-align: left;
+   vertical-align: top;
+   display: inline-block;
+   width: 50%;
+}
+.side-padding{
+   padding-right: 15%;
+   padding-left: 15%;
+}
+.quote-row{
+   background-color: #f4f4f4;
+}
+.quote{
+   text-align: center;
+   padding-bottom: 20px;
+}
+.social-media-image-list li{
+   display: inline-block;
+   margin-left: 5px;
+   margin-top: 20px;
+}
+.social-media{
+   text-align: center;
+   background-color: #f4f4f4;
+}
+.site-row{
+   padding-bottom: 40px;
+   padding-top: 40px;
+}
+.people-image{
+   width: 100%;
+}
+.social-header{
+   font-size: 1.5em;
+}
+.site-content{
+   padding-bottom: 20px;
+}
+.footer-list li{
+   display: inline-block;
+   margin-right:24px;
+}
+.footer-list{
+   display: inline-block;
+}
+.footer{
+   text-align: center;
+   color: #848484;
+   background-color: #e3e3e3;
+   padding-bottom: 80px;
+   padding-top: 80px;
+}
