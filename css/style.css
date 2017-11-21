@@ -1,16 +1,23 @@
+.iphone-image{
+   width: 32%;
+
+}
 .background-image{
    background-image: url(../comps/focus.jpg);
-   background-image: cover;
-   width: 100%;
+   background-size: cover;
+   width: 1600px;
+}
+.focus-padding {
+   padding-top: 10px;
 }
 .focus-image {
-   position: relative;
-   top: 70px;
-   right: 50px;
+   padding-top: 50px;
+   padding-right: 12px;
 }
 .focus {
    display: inline-block;
    font-family: Pacifico;
+   font-size:3em;
 
 }
 .header-background-image {
@@ -23,15 +30,11 @@
 
 .great-feature-column-two {
    padding-right: 17%;
-   width: 200px;
+   width: 33%;
 }
 .great-feature-column-one {
    padding-left: 17%;
-   width: 200px;
-}
-.great-feature-padding {
-   padding-top: 50px;
-   padding-bottom: 50px;
+   width: 33%;
 }
 .play-button {
    width: 16%;
