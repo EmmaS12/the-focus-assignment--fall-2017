@@ -1,3 +1,26 @@
+.background-image{
+   background-image: url(../comps/focus.jpg);
+   background-image: cover;
+   width: 100%;
+}
+.focus-image {
+   position: relative;
+   top: 70px;
+   right: 50px;
+}
+.focus {
+   display: inline-block;
+   font-family: Pacifico;
+
+}
+.header-background-image {
+   background-image: url(../img/large-banner-image.png);
+   background-size: cover;
+   width: 100%;
+   height: 400px;
+   text-align: center;
+}
+
 .great-feature-column-two {
    padding-right: 17%;
    width: 200px;
