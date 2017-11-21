@@ -26,17 +26,18 @@
    text-align: center;
 }
 .iphone-image{
-   width: 32%;
-   display: inline-block;
 }
 .great-feature-column-left {
    width: 33%;
+   display: inline-block;
 }
 .great-feature-column-center {
-
+   width: 32%;
+   display: inline-block;
 }
 .great-feature-column-right {
    width: 33%;
+   display: inline-block;
 }
 .play-button {
    width: 16%;
