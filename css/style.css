@@ -26,11 +26,14 @@
    text-align: center;
 }
 .iphone-image{
-   width: 100%
+   width: 100%;
+   position: relative;
+   top: -183px;
 }
 .great-feature-column-left {
    width: 33%;
    display: inline-block;
+   vertical-align: top;
 }
 .great-feature-column-middle {
    width: 32%;
@@ -39,6 +42,7 @@
 .great-feature-column-right {
    width: 33%;
    display: inline-block;
+   vertical-align: top;
 }
 .play-button {
    width: 16%;
