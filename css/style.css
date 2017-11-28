@@ -1,10 +1,95 @@
+.angled-line{
+   position: absolute;
+   right: 600px;
+   top:820px;
+}
+.second-row-padding{
+   padding-right: 270px;
+   padding-left: 270px;
+}
+.paragraph-spacing{
+   padding-bottom: 50px;
+   padding-top: 8px
+}
+.line-spacing{
+   line-height: 1.5;
+}
+#container{
+   width: 1600px;
+   height: 2494px;
+   margin: 0;
+   padding: 0;
+}
+.quote-font{
+   font-family: Raleway;
+   font-style: normal;
+   font-size: 1.5em;
+   color: #222222;
+}
+.blogger-font{
+   font-family: Helvetica Neue;
+   font-style: normal;
+   color: #222222;
+   font-size: 0.875em;
+   font-weight: 700;
+}
+.name-font{
+   font-family: Helvetica Neue;
+   font-style: normal;
+   color: #222222;
+   font-size: 0.875em;
+}
+.landing-padding{
+   padding-top: 115px;
+}
+p.note {
+font-family: Raleway;
+   font-style: normal;
+   font-weight: 300;
+   color: #222222;
+   font-size: 2.25em;
+}
+p {
+   font-family: Helvetica Neue;
+   font-style: normal;
+   color: #848484;
+   font-size: 1em;
+}
+h2 {
+   font-family: Raleway;
+   font-style: normal;
+   font-weight: 600;
+   color: #222222;
+   font-size: 1.4em;
+}
+@font-face {
+   font-family: Helvetica Neue;
+   font-style: normal;
+}
 @font-face {
    font-family: Pacifico;
+   font-style: normal;
    src: url(../fonts/Pacifico/Q_Z9mv4hySLTMoMjnk_rCXYhjbSpvc47ee6xR_80Hnw.woff2);
 }
 @font-face {
    font-family: Raleway;
+   font-style: normal;
    src: url(../fonts/Raleway/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2);
+}
+@font-face {
+   font-family: Raleway;
+   font-style: normal;
+   font-weight: 300;
+   src: url(../fonts/Raleway/-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2);
+}
+@font-face {
+   font-family: Raleway;
+   font-style: normal;
+   font-weight: 600;
+   src: url(../fonts/Raleway/xkvoNo9fC8O2RDydKj12bwzyDMXhdD8sAj6OAJTFsBI.woff2);
+}
+.great-feature-padding{
+   padding-left: 54px;
 }
 .great-feature-row{
    background-color: #f4f4f4;
@@ -14,29 +99,29 @@
    background-size: cover;
    width: 1600px;
 }
-.focus-padding {
-   padding-top: 10px;
+.landing-padding{
+   padding-top: 167px;
 }
 .focus-image {
-   padding-top: 50px;
    padding-right: 12px;
+   display: inline-block;
 }
 .focus {
    display: inline-block;
    font-family: Pacifico;
-   font-size:3em;
+   font-size:3.75em;
 }
 .header-background-image {
    background-image: url(../img/large-banner-image.png);
    background-size: cover;
    width: 100%;
-   height: 400px;
+   height: 700px;
    text-align: center;
 }
 .iphone-image{
-   width: 100%;
+   right: 61px;
    position: relative;
-   top: -183px;
+   top: -337px;
 }
 .great-feature-column-left {
    width: 33%;
@@ -56,19 +141,17 @@
    width: 16%;
    position:absolute;
    bottom: 14px;
-   left: 47px;
+   left: 59px;
 }
 .video-playbar {
-   width: 85%;
    position:absolute;
    bottom: 14px;
-   left: 102px;
+   left: 140px;
 }
 .video-image {
-   width: 115%;
    position:relative;
-   left: 30px;
-   top: 7px;
+   left: 40px;
+   top: 0px;
 }
 .get-app-header {
    padding-bottom: 20px;
@@ -88,15 +171,18 @@
    width: 50%;
 }
 .side-padding{
-   padding-right: 15%;
-   padding-left: 15%;
+   padding-right: 200px;
+   padding-left: 200px;
 }
 .quote-row{
    background-color: #f4f4f4;
 }
+.quote-top{
+   text-align: center;
+   padding-top: 20px
+}
 .quote{
    text-align: center;
-   padding-bottom: 20px;
 }
 .social-media-image-list li{
    display: inline-block;
@@ -108,8 +194,8 @@
    background-color: #f4f4f4;
 }
 .site-row{
-   padding-bottom: 40px;
-   padding-top: 40px;
+   padding-bottom: 50px;
+   padding-top: 50px;
 }
 .people-image{
    width: 100%;
@@ -133,4 +219,8 @@
    background-color: #e3e3e3;
    padding-bottom: 80px;
    padding-top: 80px;
+   font-family: Helvetica Neue;
+   font-style: normal;
+   color: #848484;
+   font-size: 1em;
 }
