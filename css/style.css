@@ -1,11 +1,11 @@
-.angled-line{
-   position: absolute;
-   right: 600px;
-   top:820px;
+.row-two{
+   height: 500px;
+   width: 1600px;
 }
-.second-row-padding{
-   padding-right: 270px;
-   padding-left: 270px;
+.angled-line{
+   position: relative;
+   left: 242px;
+   bottom: 741px;
 }
 .paragraph-spacing{
    padding-bottom: 50px;
@@ -88,11 +88,15 @@ h2 {
    font-weight: 600;
    src: url(../fonts/Raleway/xkvoNo9fC8O2RDydKj12bwzyDMXhdD8sAj6OAJTFsBI.woff2);
 }
+.great-feature-row{
+   background-color: #f4f4f4;
+}
 .great-feature-padding{
    padding-left: 54px;
 }
-.great-feature-row{
-   background-color: #f4f4f4;
+.second-row-padding{
+   padding-right: ;
+   padding-left: 270px;
 }
 .background-image{
    background-image: url(../comps/focus.jpg);
@@ -119,21 +123,21 @@ h2 {
    text-align: center;
 }
 .iphone-image{
-   right: 61px;
+   right: 44px;
    position: relative;
    top: -337px;
 }
 .great-feature-column-left {
-   width: 33%;
+   width: 27%;
    display: inline-block;
    vertical-align: top;
 }
 .great-feature-column-middle {
-   width: 32%;
+   width: 30%;
    display: inline-block;
 }
 .great-feature-column-right {
-   width: 33%;
+   width: 27%;
    display: inline-block;
    vertical-align: top;
 }
